@@ -13,7 +13,6 @@ setup(
   install_requires=[            # I get to this in a second
           'requests',
           'beautifulsoup4',
-          'itertools',
           'unicodedata',
           'pandas',
           'sys',
