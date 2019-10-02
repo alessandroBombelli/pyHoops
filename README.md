@@ -35,7 +35,21 @@ pyHoops requires the following python packages: <code>bs4</code>, <code>itertool
 
 
 ## Example:
+Inside the pyHoops folder, a file <code>pyHoops_tests.py</code> is provided, where different tests (one for each specific game) are provided. To change the test, simply comment the currently uncommented two lines defining the play-by-play and boxscore webpages of the current test case, and uncomments the ones of the new test case. As example, in its original form the test run is
 
+<code>
+##########################################################################
+### LBA Lega Basket Serie A: second week (all games), 2019-2020 season ###
+##########################################################################
+
+## TEST 2: Reggio Emilia - Trentino (2019-2020 season)
+#thisUrl         = 'http://web.legabasket.it/game/1672520/grissin_bon_reggio_emilia-dolomiti_energia_trentino_76:84/pbp'
+#thisUrlBoxscore = 'http://web.legabasket.it/game/1672520/grissin_bon_reggio_emilia-dolomiti_energia_trentino_76:84'
+
+# TEST 3: Armani Milano - Brescia (2019-2020 season)
+thisUrl         = 'http://web.legabasket.it/game/1672517/a_x_armani_exchange_milano-germani_basket_brescia-65:73/pbp'
+thisUrlBoxscore = 'http://web.legabasket.it/game/1672517/a_x_armani_exchange_milano-germani_basket_brescia-65:73'
+</code>
 
 
 ##  License:
