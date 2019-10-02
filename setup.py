@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'pyHoops',         # How you named your package folder
   packages = ['pyHoops'],   # Chose the same as "name"
-  version = '1.3',      # Start with a small number and increase it with every change you make
+  version = '1.4',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'a python package for advanced basket data analytics',   # Give a short description about your library
   author = 'alessandroBombelli',                   # Type in your name
