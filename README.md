@@ -7,4 +7,4 @@ pyHoops: a Python package to web-parse basketball games' play-by-play data and c
 
 ## Package outputs:
 
-![atr_homeTeamPlayer](https://user-images.githubusercontent.com/55788224/65889451-8dd07700-e3a1-11e9-9093-df60a07d0634.png)
+![offDef_eff_perPlayergermanibasketbrescia](https://user-images.githubusercontent.com/55788224/66026681-a5227800-e4f9-11e9-8fcd-d69c58f6c2ab.png)
