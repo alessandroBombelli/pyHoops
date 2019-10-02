@@ -26,7 +26,7 @@ setup(
     'Intended Audience :: Developers',      # Define that your audience are developers
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',   # Again, pick a license
-    'Programming Language :: Python :: 2.7.16',      #Specify which python versions that you want to support
-    'Programming Language :: Python :: 3.7.1'
+    'Programming Language :: Python :: 2.7',      #Specify which python versions that you want to support
+    'Programming Language :: Python :: 3.7'
   ],
 )
