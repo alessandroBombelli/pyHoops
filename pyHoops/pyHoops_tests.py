@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sep 30 12:02:52 2019
@@ -8,18 +8,20 @@ Created on Mon Sep 30 12:02:52 2019
 
 import os
 import sys
-import pyHoops
 
 sys.path.append('C:/Python27/Lib/site-packages')
 sys.path.append('/Library/TeX/texbin/xelatex')
 sys.path.append('/anaconda/bin/python')
 sys.path.append('/anaconda/lib/python2.7/site-packages')
+sys.path.append('anaconda/envs/py37/lib/python3.7/site-packages')
+
+from pyHoops import pyHoops
 
 #######################
 ### INPUTS:
 #######################
 
-# PAth to current folder
+# Path to current folder
 cwd             = os.getcwd()
 
 # List of teams and associated logos. An additional logo is added, to be associated
@@ -44,7 +46,7 @@ team_list_logos = ['Brescia.png','Brindisi.png','Cantu.png','Cremona.png',
 # 1) thisUrl        : url to play-by-play webpage of the game
 # 2) thisUrlBoxscore: url to boxscore webpage of the game
 # and run the code
-# IN the original version of this file, the game between
+# In the original version of this file, the game between
 # A|X Armani Exchange Milano and Germani Basket Brescia (TEST 3) is processed
 
 
@@ -91,7 +93,6 @@ thisUrlBoxscore = 'http://web.legabasket.it/game/1672517/a_x_armani_exchange_mil
 ## TEST 9: Trieste - Varese (2019-2020 season)
 #thisUrl         = 'http://web.legabasket.it/game/1672519/pallacanestro_trieste-openjobmetis_varese-62:92/pbp'
 #thisUrlBoxscore = 'http://web.legabasket.it/game/1672519/pallacanestro_trieste-openjobmetis_varese-62:92'
-
 
 
 
@@ -229,5 +230,4 @@ df_awayTeam_offDef_efficiency_perPlayer) = pyHoops.plot_team_statistics(df_awayT
                              bench_awayTeam,
                              orig_idx_starting_five_awayTeam,
                              orig_idx_bench_awayTeam,string_awayTeam,pos_logo,axis_font)
-
 
