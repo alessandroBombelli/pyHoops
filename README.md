@@ -30,5 +30,5 @@ With pyHoops, statistics for a single game can be easily stored as spreadsheets,
 
 ## Contributing:
 
-We welcome
+We welcome all
 
