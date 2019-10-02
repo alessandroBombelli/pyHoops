@@ -19,11 +19,18 @@ With pyHoops, statistics for a single game can be easily stored as spreadsheets,
 
 ## Installation:
 
+pyHoops can be installed via PyPi with the command
+
+<code>pip install pyHoops==1.4</code>
+
+or, as an alternative, the tar.gz or .zip files can be downloaded from the [PyPi webpage](https://pypi.org/project/pyHoops/1.4/) 
+
 ## Dependencies:
 pyHoops has been tested on 
 - <code>python 2.7.14</code>
 - <code>python 3.7.1</code>
 
+As a general note, we recommend to use a python 3.X release, since python 2.7 will soon become deprecated.
 pyHoops requires the following python packages: <code>bs4</code>, <code>itertools</code>, <code>matplotlib</code>, <code>numpy</code>, <code>os</code>, <code>pandas</code>, <code>random</code>, <code>re</code>, <code>requests</code>, <code>sys</code>, <code>unicodedata</code>.
 
 
