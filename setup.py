@@ -8,7 +8,7 @@ setup(
   author = 'alessandroBombelli',                   # Type in your name
   author_email = 'alessandro.bombelli.87@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/alessandroBombelli/pyHoops',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/alessandroBombelli/pyHoops/releases/tag/v_01',    # I explain this later on
   keywords = ['DATA ANALYTICS', 'WEB-PARSING', 'BASKETBALL'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
