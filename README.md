@@ -34,5 +34,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contributing:
 
-We welcome all feedback
+We welcome all feedback that might help improve the package.
 
