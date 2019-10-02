@@ -1,5 +1,5 @@
 # pyHoops
-pyHoops: a Python package to web-parse basketball games' play-by-play data and compute advanced statistics
+pyHoops: a Python package to web-parse basketball games' play-by-play data and compute advanced statistics (logo created with [LogoMakr](https://logomakr.com/)).
 
 ![LogoMakr_2zgNYE](https://user-images.githubusercontent.com/55788224/65873275-f52afe80-e382-11e9-81aa-f28caf32f5c9.png)
 
