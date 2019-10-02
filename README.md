@@ -21,6 +21,8 @@ With pyHoops, statistics for a single game can be easily stored as spreadsheets,
 
 ## Dependencies:
 
+pyHoops requires the following python packages: <code>bs4</code>, <code>itertools</code>, <code>matplotlib</code>, <code>numpy</code>, <code>os</code>, <code>pandas</code>, <code>random</code>, <code>re</code>, <code>requests</code>, <code>sys</code>, <code>unicodedata</code>.
+
 
 ## Example:
 
