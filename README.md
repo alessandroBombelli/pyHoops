@@ -32,5 +32,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contributing:
 
-We welcome all
+We welcome all feedback
 
