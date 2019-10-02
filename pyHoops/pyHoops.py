@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sep 30 12:06:19 2019
-
 @author: alessandro
 """
 
@@ -2335,12 +2334,4 @@ def plot_team_statistics(df_homeTeam_lineups_ownTeamStats_aggr,
             
     
         
-    
-
-
-
-
-
-
-
     
