@@ -32,29 +32,4 @@ The contribution of Luca Cappelletti in the development phase of the package is 
 
 # References
 
-@misc{Belichick2019,
-  title = {{Bleacher report} website},
-  author = {{Bleacher Report}},
-  howpublished = "\url{https://bleacherreport.com/articles/2855622-patriots-bill-belichick-uses-analytics-less-than-zero-in-decision-making}",
-  year = {2019}, 
-  note = {Accessed: October 2019}
-}
-
-@article{travassos:2013,
-  title={Performance analysis in team sports: Advances from an Ecological Dynamics approach},
-  author={Travassos, Bruno and Davids, Keith and Ara{\'u}jo, Duarte and Esteves, T Pedro},
-  journal={International Journal of Performance Analysis in Sport},
-  volume={13},
-  number={1},
-  pages={83--95},
-  year={2013},
-  publisher={Taylor \& Francis}
-}
-
-@article{metulini:2018,
-  title={Players Movements and Team Shooting Performance: a Data Mining approach for Basketball},
-  author={Metulini, Rodolfo},
-  journal={arXiv preprint arXiv:1805.02501},
-  year={2018}
-}
 
