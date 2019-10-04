@@ -8,15 +8,24 @@ tags:
 authors:
   - name: Alessandro Bombelli
     orcid: 0000-0001-7889-9552
-    affiliation: 1
-affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University
-   index: 1
+    affiliation: Air Transport & Operations, Faculty of Aerospace Engineering, Delft University of Technology
 date: 13 August 2017
-bibliography: paper.bib
+bibliography: pyHoops_references.bib
 ---
 
 # Summary
+
+Advanced data analytics has received contrasting opinions within the sport community. One of the greatest American Football of all times, Bill Belichick, stated that he uses analytics "less than zero" when preparing games. On the other end, the movie "Money Ball" stressed the necessity of advanced data analytics in baseball, i.e., sabermetric, to improve team's performances. Restricting the field of view to basketball, there exist, especially in the United States, a strong interest towards data science to enhance players' performances. Europe, on the other hand, is still a step behind in this sense. While statistics on individual performances of players are generally available after games in the form of box scores, such statistics are geenrally miopic. In fact, being individual statistics, thaty cannot fully grasp the impact of a player on his/her team while on the court and, equally importantly, the impact on the opposing team.
+
+Basketball games of most European leagues and of the Euroleague are provided with a play-by-play report that maps every action (field goal made or attemped, foul, assist, substitution) of the game. Goal of ``pyHoops`` is to process such play-by-play reports to extrapolate performance indices that map the impact of players or lineups on the own and opposing team. As example, a player might be a prolific scorer, hence positively affecting his/her onw offense, but a below-average defender, and thus affecting negatively the defensive effort.
+
+``pyHoops`` is based on two major blocks: (1) web-parsing to translate play-by-play html tables into databases, and (2) computation of statistics and performance indices using the retrieved databases. The web-parsing block easily stores play-by-play reports using as inputs the urls to the play-by-play report and the boxscore. Since webpages (and html tables) vary according to the specific league, the web-parsing block is league-specific and should be modified given an inspection of the underlying html structure of the webpages of interest. As a last resort, play-by-play reports and boxscores can be directly copied from the webpage, saved as spreadsheets and loaded as databases to skip the web-parsing block. The secondo block uses play-by-play information to aggregate statistics for every distinct player and lineup, referring to the own team and the opposing team. To provide a more tangible example, ``pyHoops`` can translate a play-by-play report ![Example figure.](figure.png) 
+
+Having now team-aggregated and not player-specific information, ``pyHoops`` can easily compute and compare, as example, the field goal percentage of the home team when a particular player was on the court, versus the field goal percentage of the away team when the same player was on the court. While each call of ``pyHoops`` focuses on a single game, season-wide statistics can be computed by running ``pyHoops`` everytime a new game occurs and storing new information in a <code>pandas</code> database, as example.
+
+This full set of statistics could be used by coaches to predict the best matchups during a game and improve team's performances. We believe ``pyHoops`` could be a first step towards a better understanding and usage of advanced team-oriented basktetball statistics within the European basketball movement. Although some works already exist in the academic literature addressing advanced basketball analytics for European basketball, we believe this work to be the first one (i) to focus on aggregated team-oriented statistics rather than individual-oriented statistics, and (ii) to provide an open-source package to be used be team data analysts of basketball enthusiasts to perform such analyses.      
+
+
 
 The forces on stars, galaxies, and dark matter under external gravitational
 fields lead to the dynamical evolution of structures in the universe. The orbits
@@ -55,3 +64,6 @@ We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
 Oh, and support from Kathryn Johnston during the genesis of this project.
 
 # References
+
+https://bleacherreport.com/articles/2855622-patriots-bill-belichick-uses-analytics-less-than-zero-in-decision-making
+
