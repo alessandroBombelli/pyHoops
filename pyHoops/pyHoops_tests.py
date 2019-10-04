@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sep 30 12:02:52 2019
@@ -36,6 +36,7 @@ team_list_logos = ['Brescia.png','Brindisi.png','Cantu.png','Cremona.png',
                    'Trentino.png','Treviso.png','Trieste.png','Varese.png',
                    'Venezia.png','Virtus_Bologna.png','LBA_logo.png'] 
 
+#%%
 #######################
 #######################
 ### TESTS:
@@ -46,7 +47,7 @@ team_list_logos = ['Brescia.png','Brindisi.png','Cantu.png','Cremona.png',
 # 1) thisUrl        : url to play-by-play webpage of the game
 # 2) thisUrlBoxscore: url to boxscore webpage of the game
 # and run the code
-# In the original version of this file, the game between
+# IN the original version of this file, the game between
 # A|X Armani Exchange Milano and Germani Basket Brescia (TEST 3) is processed
 
 
@@ -105,7 +106,12 @@ thisUrlBoxscore = 'http://web.legabasket.it/game/1672517/a_x_armani_exchange_mil
 ############################################### 
 # Extracting all play-by-play info from webpage
 ###############################################      
-df = pyHoops.web_parse_playbyplay(thisUrl)
+df,homeTeam,awayTeam = pyHoops.web_parse_playbyplay(thisUrl)
+
+################# 
+# Print game info
+#################
+pyHoops.print_game_analyzed(homeTeam,awayTeam)
 
 ###################################################### 
 # Extracting boxscores (home + away team) from webpage
@@ -230,4 +236,5 @@ df_awayTeam_offDef_efficiency_perPlayer) = pyHoops.plot_team_statistics(df_awayT
                              bench_awayTeam,
                              orig_idx_starting_five_awayTeam,
                              orig_idx_bench_awayTeam,string_awayTeam,pos_logo,axis_font)
+
 

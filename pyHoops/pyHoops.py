@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sep 30 12:06:19 2019
@@ -18,6 +18,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import os
+import sys
 import matplotlib.pyplot as plt
 from matplotlib.cbook import get_sample_data
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
@@ -34,6 +35,8 @@ import unicodedata
 # reporting respectively home team info, minute of the game or score, away team
 # info. For other leagues (e.g., Euroleague), ther emight be more columns,
 # and the web-parsing procedure should be slightly changed accordingly.
+
+
 
 def web_parse_playbyplay(thisUrl):
     p    = requests.get(thisUrl)
@@ -65,7 +68,16 @@ def web_parse_playbyplay(thisUrl):
         
     df.to_excel(l[0][0] + '_' + l[0][2] + '.xlsx',sheet_name='Sheet_name_1')
     
-    return df
+    return df,l[0][0],l[0][2] 
+
+# Input  : dataframe with play-by-play
+# Output : command window print of the game analyzed
+def print_game_analyzed(homeTeam,awayTeam):
+    # Python 3.X is running
+    if sys.version[0] == '3':
+        print('###########################################################')
+        print('Game analyzed is: ' + str(homeTeam) + ' vs ' + str(awayTeam))
+        print('###########################################################')
 
 # Input  : string identifying home team, string identifying away team, 
 #          list of available teams
@@ -2334,4 +2346,4 @@ def plot_team_statistics(df_homeTeam_lineups_ownTeamStats_aggr,
             
     
         
-    
+
