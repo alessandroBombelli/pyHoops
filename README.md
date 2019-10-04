@@ -36,7 +36,7 @@ As a general note, we recommend to use a python 3.X release, since python 2.7 wi
 pyHoops requires the following python packages: <code>bs4</code>, <code>itertools</code>, <code>matplotlib</code>, <code>numpy</code>, <code>os</code>, <code>pandas</code>, <code>random</code>, <code>re</code>, <code>requests</code>, <code>sys</code>, <code>unicodedata</code>.
 
 ## Example
-In the folder <copy>tests</copy>, the file <copy>pyHoops_tests.py</copy> can be used to run several tests. The  file directly calls the package <copy>pyHoops.py</copy>, which must be saved in the same folder (we suggest to directly download the folder <code>tests</code> as provided and run tests using the <copy>pyHoops_tests.py</copy> file). To change test, simply comment the two lines defining the play-by-play and boxscore webpages of the current game, and uncomment the lines of the game you are interested in analyzing. In the following, we also provide a step by step Jupyter Notebook analysis of the game A|X Armani Exchange Milano vs. Germani Basket Brescia.
+In the folder <copy>tests</copy>, the file <copy>pyHoops_tests.py</copy> can be used to run several tests. The  file directly calls the package <copy>pyHoops.py</copy>, which must be saved in the same folder (we suggest to directly download the folder <code>tests</code> as provided and run tests using the <copy>pyHoops_tests.py</copy> file). To change test, simply comment the two lines defining the play-by-play and boxscore webpages of the current game, and uncomment the lines of the game you are interested in analyzing.
 
 
 ##  License:
