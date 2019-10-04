@@ -15,7 +15,7 @@ can be web-parsed, and basketball statistics per lineup and per player can be ea
 
 The output is a sequence of dataframes and Figures reporting the contribution of a specific lineup or player on the flow of the game, in terms of field goal percentage, offensive/defensive efficiency, etc, both of the own team and of the opposing team. This is a set of statistics which is generally not available (at least in European basketball leagues), but which provides more valuable information on the impact of lineups and players on the game. As example, a player might contribute positively on his/her team offense (high offensive efficiency), but also negatively affect his/her team defense (high defensive efficiency).
 
-With pyHoops, statistics for a single game can be easily stored as spreadsheets, with the overarching goal of collecting statistics foe every game of the season and build more extensive team-specific datasets to better understand the impact of lineups and players on the performance of the team.
+With pyHoops, statistics for a single game can be easily stored as spreadsheets, with the overarching goal of collecting statistics for every game of the season and build more extensive team-specific datasets to better understand the impact of lineups and players on the performance of the team.
 
 ## Installation:
 
@@ -34,10 +34,6 @@ pyHoops has been tested on
 
 As a general note, we recommend to use a python 3.X release, since python 2.7 will soon become deprecated.
 pyHoops requires the following python packages: <code>bs4</code>, <code>itertools</code>, <code>matplotlib</code>, <code>numpy</code>, <code>os</code>, <code>pandas</code>, <code>random</code>, <code>re</code>, <code>requests</code>, <code>sys</code>, <code>unicodedata</code>.
-
-
-## Example:
-Inside the pyHoops folder, a folder called <code>tests</code> is provided. A file named <code>pyHoops_tests.py</code> is also provided within the folder, where different tests (one for each specific game) can be run. To change the test, simply comment the currently uncommented two lines defining the play-by-play and boxscore webpages of the current test case, and uncomments the ones of the new test case. We also provide a step-by-step Jupyter Notebook analysis related to the game A|X Armani Exchange Milano vs Germani Basket Brescia. 
 
 
 
