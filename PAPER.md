@@ -1,14 +1,13 @@
 ---
-title: 'pyHoops: A Python package for galactic dynamics'
+title: 'pyHoops: A Python package for advanced basketball data analytics'
 tags:
   - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - basketball
+  - web-parsing
+  - data analysis
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0003-0872-7098
+  - name: Alessandro Bombelli
+    orcid: 0000-0001-7889-9552
     affiliation: 1
 affiliations:
  - name: Lyman Spitzer, Jr. Fellow, Princeton University
