@@ -9,7 +9,7 @@ authors:
   - name: Alessandro Bombelli
     orcid: 0000-0001-7889-9552
     affiliation: Air Transport & Operations, Faculty of Aerospace Engineering, Delft University of Technology
-date: 04 October 2019
+date: 05 October 2019
 bibliography: pyHoops_references.bib
 ---
 
