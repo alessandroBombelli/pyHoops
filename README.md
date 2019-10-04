@@ -38,6 +38,8 @@ pyHoops requires the following python packages: <code>bs4</code>, <code>itertool
 ## Example
 In the folder <copy>tests</copy>, the file <copy>pyHoops_tests.py</copy> can be used to run several tests. The  file directly calls the package <copy>pyHoops.py</copy>, which must be saved in the same folder (we suggest to directly download the folder <code>tests</code> as provided and run tests using the <copy>pyHoops_tests.py</copy> file). To change test, simply comment the two lines defining the play-by-play and boxscore webpages of the current game, and uncomment the lines of the game you are interested in analyzing.
 
+AX_exchange_vs_Brescia_example.md
+
 
 ##  License:
 
