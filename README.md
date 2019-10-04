@@ -37,7 +37,7 @@ pyHoops requires the following python packages: <code>bs4</code>, <code>itertool
 
 
 ## Example:
-Inside the pyHoops folder, a folder called <code>tests</code> is provided. A file named <code>pyHoops_tests.py</code> is also provided within the folder, where different tests (one for each specific game) can be run. To change the test, simply comment the currently uncommented two lines defining the play-by-play and boxscore webpages of the current test case, and uncomments the ones of the new test case. We also provide a step-by-step Jupyter Notebook analysis related to the game 
+Inside the pyHoops folder, a folder called <code>tests</code> is provided. A file named <code>pyHoops_tests.py</code> is also provided within the folder, where different tests (one for each specific game) can be run. To change the test, simply comment the currently uncommented two lines defining the play-by-play and boxscore webpages of the current test case, and uncomments the ones of the new test case. We also provide a step-by-step Jupyter Notebook analysis related to the game A|X Armani Exchange Milano vs Germani Basket Brescia. 
 
 
 
