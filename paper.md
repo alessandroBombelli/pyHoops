@@ -29,6 +29,7 @@ Having now team-aggregated and not player-specific information, ``pyHoops`` can 
 We hope ``pyHoops`` can foster a better understanding and interest in advanced team-oriented basktetball statistics within the European basketball movement. Although some works already exist in the academic literature addressing advanced basketball analytics for European basketball [@travassos:2013;@metulini:2018], we believe this work to be the first (i) to focus on aggregated team-oriented statistics rather than individual-oriented statistics, and (ii) to provide an open-source package to be used by team data analysts of basketball enthusiasts to perform such analyses.      
 
 
+
 # Acknowledgements
 
 The contribution of Luca Cappelletti in the development phase of the package is warmly acknowledged.
