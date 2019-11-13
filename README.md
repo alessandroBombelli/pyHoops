@@ -7,7 +7,7 @@ pyHoops: a Python package to web-parse basketball games' play-by-play data and c
 
 Using pyHoops, a play-by-play report of a basketball game (see Figure below. Source: Lega Basket Serie A website)
 
-![Screen Shot 2019-10-02 at 9 51 30 AM (2)](https://user-images.githubusercontent.com/55788224/66027310-e5362a80-e4fa-11e9-8acc-6d75b5c3e131.png)
+<img width="1211" alt="Screen Shot 2019-11-13 at 10 36 50 PM" src="https://user-images.githubusercontent.com/55788224/68807047-6559bf00-0667-11ea-8aa6-eba2a21a8dbc.png">
 
 can be web-parsed, and basketball statistics per lineup and per player can be easily computed. In the Figure below, it is depicted the offensive efficiency vs. the defensice efficiency (per player) of the Italian basketball team Germani Basket Brescia for the game against A|X Armani Exchange Milano, whose play-by-play report is available [here](http://web.legabasket.it/game/1672517/a_x_armani_exchange_milano-germani_basket_brescia-65:73/pbp). 
 
