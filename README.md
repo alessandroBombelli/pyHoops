@@ -19,13 +19,7 @@ With pyHoops, statistics for a single game can be easily stored as spreadsheets,
 
 ## Installation:
 
-pyHoops can be installed via PyPi with the command
-
-<code>pip install pyHoops==1.4</code>
-
-or, as an alternative, the tar.gz or .zip files can be downloaded from the [PyPi webpage](https://pypi.org/project/pyHoops/1.4/)
-
-The most updated version is also directly accessible via the folder <code>tests</code> in this repository. In that, case the package <code>pyHoops.py</code> would need to be saved in the same folder as the main code calling it (see Section "Example").
+The most updated version of pyHoops is directly accessible via the folder <code>tests</code> in this repository. The package <code>pyHoops.py</code> would need to be saved in the same folder as the main code calling it (see Section "Example"). pyHoops will be soon added to PyPi, so that an automatic installation via pip is also possible.
 
 ## Dependencies:
 pyHoops has been tested on 
@@ -36,11 +30,22 @@ As a general note, we recommend to use a python 3.X release, since python 2.7 wi
 pyHoops requires the following python packages: <code>bs4</code>, <code>itertools</code>, <code>matplotlib</code>, <code>numpy</code>, <code>os</code>, <code>pandas</code>, <code>random</code>, <code>re</code>, <code>requests</code>, <code>sys</code>, <code>unicodedata</code>.
 
 ## Example
-In the folder <copy>tests</copy>, the file <copy>pyHoops_tests.py</copy> can be used to run several tests. The  file directly calls the package <copy>pyHoops.py</copy>, which must be saved in the same folder (we suggest to directly download the folder <code>tests</code> as provided and run tests using the <copy>pyHoops_tests.py</copy> file). To change test, simply comment the two lines defining the play-by-play and boxscore webpages of the current game, and uncomment the lines of the game you are interested in analyzing. An example of Jupyter Notebook is also provided: <code>AX_exchange_vs_Brescia_example.ipynb</code>.
+In the folder <copy>tests</copy>, the file <copy>pyHoops_tests.py</copy> can be used to run several tests. The  file directly calls the package <copy>pyHoops.py</copy>, which must be saved in the same folder (we suggest to directly download the folder <code>tests</code> as provided and run tests using the <copy>pyHoops_tests.py</copy> file). To change test, simply comment the two lines defining the play-by-play and boxscore webpages of the current game, and uncomment the lines of the game you are interested in analyzing.
 
 ##  License:
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+Begin license text.
+Copyright <2019> <Alessandro Bombelli>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
 
 ## Contributing:
 
