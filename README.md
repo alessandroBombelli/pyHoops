@@ -5,11 +5,14 @@ pyHoops: a Python package to web-parse basketball games' play-by-play data and c
 
 ## About:
 
+Basketball advanced analytics and statistics have gained popularity in recent years, in parallel with the emergence of artificial intelligence and machine learning techniques. Recently, the NBA has launched a competition (see [here])
+https://www.nbadatachallenge.com/
+to predict game scores using historical data. In fact, in order to predict the effect of a player or a lineup on a game, historical data can be used to predict such impact. Data are generally individual, in the sense that they record statistics of a single player, and not statistics of the whole team when a specific player was on the court, and can be "myopic".   
 Using pyHoops, a play-by-play report of a basketball game (see Figure below. Source: Lega Basket Serie A website)
 
 <img width="1211" alt="Screen Shot 2019-11-13 at 10 36 50 PM" src="https://user-images.githubusercontent.com/55788224/68807047-6559bf00-0667-11ea-8aa6-eba2a21a8dbc.png">
 
-can be web-parsed, and basketball statistics per lineup and per player can be easily computed. In the Figure below, it is depicted the offensive efficiency vs. the defensive efficiency (per player) of the Italian basketball team Virtus Roma for the game against Acqua S. Bernardo Cantu', whose play-by-play report is available [here](http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76). 
+can be web-parsed, and basketball statistics (for the whole own team and opposing team) per lineup and per player can be easily computed. In the Figure below, it is depicted the offensive efficiency vs. the defensive efficiency (per player) of the Italian basketball team Virtus Roma for the game against Acqua S. Bernardo Cantu', whose play-by-play report is available [here](http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76). 
 
 ![offDef_eff_perPlayerroma](https://user-images.githubusercontent.com/55788224/68843407-58b98300-06c8-11ea-9395-dad3aee2a38f.png)
 
