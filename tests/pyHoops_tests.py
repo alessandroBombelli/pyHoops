@@ -52,17 +52,17 @@ team_list_logos = ['Brescia.png','Brindisi.png','Cantu.png','Cremona.png',
 #######################
 # Tor un each test, de-comment the four input lines and run the file
 
-## TEST 1
-#thisUrl         = 'http://web.legabasket.it/game/1672570/germani_basket_brescia-openjobmetis_varese_91:74/pbp'
-#thisUrlBoxscore = 'http://web.legabasket.it/game/1672570/germani_basket_brescia-openjobmetis_varese_91:74'
-#string_homeTeam = 'brescia'
-#string_awayTeam = 'varese'
+# TEST 1
+thisUrl         = 'http://web.legabasket.it/game/1672570/germani_basket_brescia-openjobmetis_varese_91:74/pbp'
+thisUrlBoxscore = 'http://web.legabasket.it/game/1672570/germani_basket_brescia-openjobmetis_varese_91:74'
+string_homeTeam = 'brescia'
+string_awayTeam = 'varese'
 
-# TEST 2
-thisUrl         = 'http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76/pbp'
-thisUrlBoxscore = 'http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76'
-string_homeTeam = 'cantu'
-string_awayTeam = 'roma'
+## TEST 2
+#thisUrl         = 'http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76/pbp'
+#thisUrlBoxscore = 'http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76'
+#string_homeTeam = 'cantu'
+#string_awayTeam = 'roma'
 
 ## TEST 3
 #thisUrl         = 'http://web.legabasket.it/game/1672567/pallacanestro_trieste-happy_casa_brindisi_72:80/pbp'
