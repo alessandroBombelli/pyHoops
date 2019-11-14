@@ -11,7 +11,7 @@ Using pyHoops, a play-by-play report of a basketball game (see Figure below. Sou
 
 can be web-parsed, and basketball statistics per lineup and per player can be easily computed. In the Figure below, it is depicted the offensive efficiency vs. the defensive efficiency (per player) of the Italian basketball team Virtus Roma for the game against Acqua S. Bernardo Cantu', whose play-by-play report is available [here](http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76). 
 
-![offDef_eff_perPlayergermanibasketbrescia](https://user-images.githubusercontent.com/55788224/66026681-a5227800-e4f9-11e9-8fcd-d69c58f6c2ab.png)
+![offDef_eff_perPlayerroma](https://user-images.githubusercontent.com/55788224/68843407-58b98300-06c8-11ea-9395-dad3aee2a38f.png)
 
 The output is a sequence of dataframes and Figures reporting the contribution of a specific lineup or player on the flow of the game, in terms of field goal percentage, offensive/defensive efficiency, etc, both of the own team and of the opposing team. This is a set of statistics which is generally not available (at least in European basketball leagues), but which provides more valuable information on the impact of lineups and players on the game. As example, a player might contribute positively on his/her team offense (high offensive efficiency), but also negatively affect his/her team defense (high defensive efficiency).
 
