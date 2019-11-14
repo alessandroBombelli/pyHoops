@@ -9,7 +9,7 @@ Using pyHoops, a play-by-play report of a basketball game (see Figure below. Sou
 
 <img width="1211" alt="Screen Shot 2019-11-13 at 10 36 50 PM" src="https://user-images.githubusercontent.com/55788224/68807047-6559bf00-0667-11ea-8aa6-eba2a21a8dbc.png">
 
-can be web-parsed, and basketball statistics per lineup and per player can be easily computed. In the Figure below, it is depicted the offensive efficiency vs. the defensice efficiency (per player) of the Italian basketball team Germani Basket Brescia for the game against A|X Armani Exchange Milano, whose play-by-play report is available [here](http://web.legabasket.it/game/1672517/a_x_armani_exchange_milano-germani_basket_brescia-65:73/pbp). 
+can be web-parsed, and basketball statistics per lineup and per player can be easily computed. In the Figure below, it is depicted the offensive efficiency vs. the defensive efficiency (per player) of the Italian basketball team Virtus Roma for the game against Acqua S. Bernardo Cantu', whose play-by-play report is available [here](http://web.legabasket.it/game/1672568/acqua_s__bernardo_cant__-virtus_roma_74:76). 
 
 ![offDef_eff_perPlayergermanibasketbrescia](https://user-images.githubusercontent.com/55788224/66026681-a5227800-e4f9-11e9-8fcd-d69c58f6c2ab.png)
 
