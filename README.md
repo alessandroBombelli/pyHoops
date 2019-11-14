@@ -5,9 +5,7 @@ pyHoops: a Python package to web-parse basketball games' play-by-play data and c
 
 ## About:
 
-Basketball advanced analytics and statistics have gained popularity in recent years, in parallel with the emergence of artificial intelligence and machine learning techniques. Recently, the NBA has launched a competition (see [here])
-https://www.nbadatachallenge.com/
-to predict game scores using historical data. In fact, in order to predict the effect of a player or a lineup on a game, historical data can be used to predict such impact. Data are generally individual, in the sense that they record statistics of a single player, and not statistics of the whole team when a specific player was on the court, and can be "myopic".   
+Basketball advanced analytics and statistics have gained popularity in recent years, in parallel with the emergence of artificial intelligence and machine learning techniques. Recently, the NBA has launched a competition (see [here])(https://www.nbadatachallenge.com/) to predict game scores using historical data. In fact, in order to predict the effect of a player or a lineup on a game, historical data can be used to predict such impact. Data are generally individual, in the sense that they record statistics of a single player, and not statistics of the whole team when a specific player was on the court, and can be "myopic".   
 Using pyHoops, a play-by-play report of a basketball game (see Figure below. Source: Lega Basket Serie A website)
 
 <img width="1211" alt="Screen Shot 2019-11-13 at 10 36 50 PM" src="https://user-images.githubusercontent.com/55788224/68807047-6559bf00-0667-11ea-8aa6-eba2a21a8dbc.png">
